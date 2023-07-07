@@ -7,7 +7,7 @@
 </template>
   
 <script setup lang="ts">
-import  Quill  from 'quill';
+import Quill from 'quill';
 
 var options = {
     debug: 'info',
@@ -20,5 +20,5 @@ var options = {
 };
 var editor = new Quill('#editor', options);
 </script>
-<style scoped></style>
+<style scoped lang="scss"></style>
   
