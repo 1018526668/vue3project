@@ -3,16 +3,15 @@ import { createRouter, createWebHashHistory } from "vue-router"
 const routes = [
     {
         path: '/',
-        name: 'home',
-        component: () => import('@/pages/home/index.vue')
-    },
-    {
-        path: '/quillEditor',
-        name: 'quillEditor',
-        menuName: 'quill富文本编辑器',
-        component: () => import('@/pages/quillEditor/index.vue')
+        name: 'allMenu',
+        component: () => import('@/pages/allMenu/index.vue')
     },
 
+    {
+        path: '/tiptap',
+        name: 'tiptap',
+        component: () => import('@/pages/tiptap/index.vue')
+    },
 ]
 export const router = createRouter({
     history: createWebHashHistory(),
