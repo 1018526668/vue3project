@@ -10,6 +10,9 @@ const routes = [
     {
         path: '/tiptap',
         name: 'tiptap',
+        meta: {
+            menuName: 'tiptap插件',
+        },
         component: () => import('@/pages/tiptap/index.vue')
     },
 ]
