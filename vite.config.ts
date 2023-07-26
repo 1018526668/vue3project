@@ -10,4 +10,13 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
+  css: {
+    // css预处理器
+    preprocessorOptions: {
+      scss: {
+        // 此处全局引入global.scss
+        additionalData: '@import "./src/styles/glStyle.scss";'
+      }
+    }
+  },
 })

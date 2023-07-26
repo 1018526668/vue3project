@@ -1,6 +1,4 @@
 import { createApp } from 'vue'
-import './styles/glStyle.scss'
-import './styles/glFont.scss'
 import App from './App.vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'

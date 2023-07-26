@@ -1,7 +1,7 @@
 <template>
     <div class="my-home">
         <div class="top-bread">
-            <el-breadcrumb separator="/">
+            <el-breadcrumb separator="/" class="bread-cl">
                 <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
             </el-breadcrumb>
         </div>
@@ -22,6 +22,10 @@ import { RouterView } from 'vue-router'
 
     .top-bread {
         width: 100%;
+
+        .bread-cl{
+            font-size: $f-bigger;
+        }
     }
 
     .bottom-main {
